@@ -1,11 +1,11 @@
 [
     {
         "id":1,
-        "name":"",
-        "nickname":"",
-        "img":"",
-        "link":"",
-        "desc":""
+        "name":"Maashaa",
+        "nickname":"@Maaxaa",
+        "img":"https://i.ibb.co/TtQyq93/emily-bernal-v9v-II5g-V8-Lw-unsplash.jpg",
+        "link":"abdiaziz,netlify.app",
+        "desc":"Waa ok masha Allah"
     },
     {
         "id":2,
@@ -17,6 +17,14 @@
     },
     {
         "id":3,
+        "name":"",
+        "nickname":"",
+        "img":"",
+        "link":"",
+        "desc":""
+    },
+    {
+        "id":4,
         "name":"",
         "nickname":"",
         "img":"",

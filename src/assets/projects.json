@@ -4,37 +4,37 @@
         "title":"AudioApp",
         "description":"Learn simply english language",
         "img":"",
-        "tech":["Html","Css","JavaScript"],
+        "tech":["Html","Css","JavaScript","Reactjs"],
         "link":"https://github.com/abdiaziz2112/",
         "live":"https://faarah.netlify.app/"
 
     },
     {
-        "id":"1",
+        "id":"2",
         "title":"AudioApp",
         "description":"Learn simply english language",
         "img":"",
-        "tech":["Html","Css","JavaScript"],
+        "tech":["Html","Css","JavaScript","Reactjs"],
         "link":"https://github.com/abdiaziz2112/",
         "live":"https://faarah.netlify.app/"
 
     },
     {
-        "id":"1",
-        "title":"AudioApp",
+        "id":"3",
+        "title":"Audio",
         "description":"Learn simply english language",
         "img":"",
-        "tech":["Html","Css","JavaScript"],
+        "tech":["Html","Css","JavaScript","Reactjs"],
         "link":"https://github.com/abdiaziz2112/",
         "live":"https://faarah.netlify.app/"
 
     },
     {
-        "id":"1",
+        "id":"4",
         "title":"AudioApp",
         "description":"Learn simply english language",
         "img":"",
-        "tech":["Html","Css","JavaScript"],
+        "tech":["Html","Css","JavaScript","Reactjs"],
         "link":"https://github.com/abdiaziz2112/",
         "live":"https://faarah.netlify.app/"
 
