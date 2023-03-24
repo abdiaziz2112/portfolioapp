@@ -1,45 +1,91 @@
-import React from 'react'
-import img from '../assets/cover.jpeg'
-import {FaReact, FaNode} from "react-icons/fa";
-import {SiTailwindcss, DiGitmerge, DiJavascript } from "react-icons/di";
-import {FiCode} from "react-icons/fi";
-import {MdLocalAirport, MdNature} from "react-icons/md";
-import {BsFillBookFill} from "react-icons/bs";
-import {GiSelfLove} from "react-icons/gi";
-import {} from "react-icons/";
-function About() {
+import { FaLinkedin, FaGithub, FaFacebook, FaTiktok, FaReact, FaNodeJs} from 'react-icons/fa';
+import {IoLogoJavascript} from 'react-icons/io5';
+import {SiMongodb} from 'react-icons/si'
+import {GiSkills} from 'react-icons/gi'
+import img from '../assets/cover.png'
+const About = () => {
   return (
-    <div>
-        {/* left */}
-        <div>
-            <img src={img}/>
-        </div>
-
-        {/* right */}
-        <div>
-            <h1>About me</h1>
-            <p>
-            web design and dev Graphic sevices social maneger
-            re back hacked or lose acounts vedios & photo editing 
-             xalinta every asignment  Writting thesis book and pptx others btn
-
+    <div className='bg-gray-100 py-10 px-6 md:py-20 md:px-32 lg:px-48'>
+      <div className='max-w-4xl mx-auto'>
+        <h1 className='text-3xl font-bold mb-6 text-center md:text-left'>
+          About Me
+        </h1>
+        <div className='flex flex-col sm:flex-row '>
+          <div className='flex-shrink-0 w-64 mb-4 md:mb-0 md:mr-6 border-neutral-800'>
+            <img
+              src={img}
+              alt='profile'
+              className='rounded-full w-full'
+            />
+          </div>
+          <div className='flex-1'>
+            <h1 className='font-bold'></h1>
+            <p className='text-lg mb-6'>
+              Hello there! My name is Abdiaziz Ahmed and I'm a web developer based in Somalia country specially Mogadishu City. I have experience working with a variety of programming
+              languages and frameworks, including Javascript, ReactJs, Node.js, and Express.
+              My goal is to build responsive, user-friendly web applications that
+              provide value to users.
             </p>
-        </div>
-
-        {/* Tools */}
-        <div>
-            <h2>Tools</h2>
-            <div>
-                <div>
-                    <DiJavascript/> Javascript
-
-                </div>
+            <div className='flex justify-evenly bg-slate-100 shadow-md p-3'>
+                <h1><GiSkills className='text-blue-600'/> Skills</h1>
+              <span className='mr-4'
+              >
+                <IoLogoJavascript className='w-6 h-6 text-yellow-500 hover:text-yellow-400 transition-colors duration-300' />
+              </span>
+              <span className='mr-4'>
+                <FaReact className='w-6 h-6 text-blue-400 hover:text-blue-300 transition-colors duration-300' />
+              </span>
+              <a className='mr-4'>
+                <FaNodeJs className='w-6 h-6 text-green-600 hover:text-green-500 transition-colors duration-300' />
+              </a>
+              <span>
+                <SiMongodb className='w-6 h-6 text-green-500 hover:text-green-400 transition-colors duration-300' />
+              </span>
             </div>
+            <br/>
+            <p className='text-lg mb-6'>
+              In my free time, I enjoy hiking, playing guitar, and reading about
+              the latest web development trends. You can connect with me on one of the  social media platforms 
+              using the icons below.
+            </p>
+            <div className='flex '>
+              <a
+                href='#'
+                target='_blank'
+                rel='noreferrer'
+                className='mr-4'
+              >
+                <FaLinkedin className='w-6 h-6 text-gray-500 hover:text-gray-700 transition-colors duration-300' />
+              </a>
+              <a
+                href='#'
+                target='_blank'
+                rel='noreferrer'
+                className='mr-4'
+              >
+                <FaGithub className='w-6 h-6 text-gray-500 hover:text-gray-700 transition-colors duration-300' />
+              </a>
+              <a
+                href='#'
+                target='_blank'
+                rel='noreferrer'
+                className='mr-4'
+              >
+                <FaFacebook className='w-6 h-6 text-gray-500 hover:text-gray-700 transition-colors duration-300' />
+              </a>
+              <a
+                href='#'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <FaTiktok className='w-6 h-6 text-gray-500 hover:text-gray-700 transition-colors duration-300' />
+              </a>
+            </div>
+          </div>
         </div>
-
-        {/* Intrest */}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

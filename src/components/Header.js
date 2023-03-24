@@ -25,7 +25,7 @@ function Header() {
             <Link to="/">Home</Link>
             <Link to="/services">Services</Link>
             <Link to="/about">About</Link>
-            <Link to="/projects">Projects</Link>
+            {/* <Link to="/projects">Projects</Link> */}
             <div className='bg-blue-500 text-white hover:-translate-y-1 duration-100 px-3 py-1 rounded-lg'>
             <Link to="/contact">Contact</Link>
             
@@ -41,7 +41,7 @@ function Header() {
             <Link to="/services">Services</Link>
             <Link to="/about">About</Link>
             
-            <Link to="/projects">Projects</Link>
+            {/* <Link to="/projects">Projects</Link> */}
             <div className='bg-blue-500 text-white hover:-translate-y-1 duration-100 w-24 px-3 py-1 rounded-lg'>
             <Link to="/contact">Contact</Link>
             </div>

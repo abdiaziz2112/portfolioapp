@@ -2,9 +2,12 @@ import { FaUserGraduate} from 'react-icons/fa';
 import services from '../assets/services.json';
 
 
+
 function Services() {
   
   return (
+    <>
+    
     <div className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-12">My Services</h2>
@@ -50,6 +53,7 @@ function Services() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
