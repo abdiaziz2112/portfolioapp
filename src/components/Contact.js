@@ -5,7 +5,8 @@ const Contact = () => {
   return (
     <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-md shadow-md">
       <h2 className="text-lg font-medium mb-6">Contact me</h2>
-      <form className="flex flex-col space-y-4" name='contactme' netlify>
+      <form className="flex flex-col space-y-4" name='contactme' method='post'>
+        <input type='hidden' name='form-name' value='contactme'/>
         <label className="font-medium" htmlFor="name">
           Name
         </label>
@@ -14,6 +15,7 @@ const Contact = () => {
           type="text"
           name="name"
           id="name"
+          required
         />
         <label className="font-medium" htmlFor="email">
           Email
@@ -23,6 +25,7 @@ const Contact = () => {
           type="email"
           name="email"
           id="email"
+          required
         />
         <label className="font-medium" htmlFor="message">
           Message
@@ -31,6 +34,7 @@ const Contact = () => {
           className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
           name="message"
           id="message"
+          required
           rows="5"
         ></textarea>
         <button
