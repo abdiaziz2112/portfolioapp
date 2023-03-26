@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-md shadow-md">
       <h2 className="text-lg font-medium mb-6">Contact me</h2>
-      <form className="flex flex-col space-y-4">
+      <form className="flex flex-col space-y-4" name='contactme' netlify>
         <label className="font-medium" htmlFor="name">
           Name
         </label>
