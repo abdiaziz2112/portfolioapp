@@ -1,41 +1,59 @@
-import { useState } from 'react';
-import { HiMail, HiPhone } from 'react-icons/hi';
-import { FaMapMarkerAlt } from 'react-icons/fa';
-
-import { MapContainer as LeafletMap, TileLayer, Marker, Popup } from 'react-leaflet';
+import React from 'react';
+import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 
 const Contact = () => {
-  const [position, setPosition] = useState([2.059, 45.343]); // Mogadishu, Somalia
-
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
-      <h2 className="text-2xl font-medium mb-4">Contact Me</h2>
-      <div className="flex flex-col sm:flex-row sm:space-x-6">
-        <div className="flex items-center space-x-2 mb-4 sm:mb-0">
-          <HiMail className="text-gray-400" />
-          <a href="mailto:maashaajr@gmail.com" className="text-gray-600">
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-md shadow-md">
+      <h2 className="text-lg font-medium mb-6">Contact me</h2>
+      <form className="flex flex-col space-y-4">
+        <label className="font-medium" htmlFor="name">
+          Name
+        </label>
+        <input
+          className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          type="text"
+          name="name"
+          id="name"
+        />
+        <label className="font-medium" htmlFor="email">
+          Email
+        </label>
+        <input
+          className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          type="email"
+          name="email"
+          id="email"
+        />
+        <label className="font-medium" htmlFor="message">
+          Message
+        </label>
+        <textarea
+          className="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          name="message"
+          id="message"
+          rows="5"
+        ></textarea>
+        <button
+          className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          type="submit"
+        >
+          Send Message
+        </button>
+      </form>
+      <div className="flex mt-6">
+        <div className="flex items-center mr-6">
+          <FaEnvelope className="text-blue-500 mr-2" />
+          <a href="mailto:info@example.com" className="text-gray-600 hover:text-blue-500">
             maashaajr@gmail.com
           </a>
         </div>
-        <div className="flex items-center space-x-2 mb-4 sm:mb-0">
-          <HiPhone className="text-gray-400" />
-          <a href="tel:+252619792712" className="text-gray-600">
-            +252619792712
+        <div className="flex items-center">
+          <FaPhoneAlt className="text-blue-500 mr-2" />
+          <a href="tel:+252619792712" className="text-gray-600 hover:text-blue-500">
+          +252619792712
           </a>
         </div>
-        <div className="flex items-center space-x-2">
-          <FaMapMarkerAlt className="text-gray-400" />
-          <span className="text-gray-600">Warta Nabada, Mogadishu, Somalia</span>
-        </div>
       </div>
-      <LeafletMap center={position} zoom={13} style={{ height: '400px', marginTop: '20px' }}>
-        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-        <Marker position={position}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
-        </Marker>
-      </LeafletMap>
     </div>
   );
 };
