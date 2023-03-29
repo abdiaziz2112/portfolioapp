@@ -14,7 +14,7 @@ const Footer = () => {
             <Link to="https://www.tiktok.com/@abdi_aziz1?is_from_webapp=1&sender_device=pc" className="text-gray-400 hover:text-white ml-4">
               <FaTiktok />
             </Link>
-            <Link to="#" className="text-gray-400 hover:text-white ml-4">
+            <Link to="https://www.instagram.com/invites/contact/?i=13w9cu1dymgog&utm_content=3aool6r" className="text-gray-400 hover:text-white ml-4">
               <FaInstagram />
             </Link>
           </div>

@@ -1,6 +1,33 @@
 
 
 [
+    {
+        "id":"https://i.ibb.co/L1KPx14/download-2.jpg",
+        "title":"Web creator",
+        "desc":"In today's digital age, having a website is critical for any business looking to establish a strong online presence and attract customers. A website provides a platform for businesses to showcase their products or services.  Overall, creating a website is an essential step in building a successful business in today's digital landscape.",
+        "Orginalprice":"$350",
+        "disprice":"$175",
+
+        "order":"Oreder"
+    },
+    {
+        "id":"https://i.ibb.co/TtQyq93/emily-bernal-v9v-II5g-V8-Lw-unsplash.jpg",
+        "title":"Graphic designer",
+        "desc":"You need to have a creative flair and the ability to transform ideas into designs that satisfy company and client requirements. Soft skills such as creativity, the ability to meet deadlines, superior client communication and collaboration are required, along with technical skills such as familiarity with Adobe Photoshop and coding.",
+        "Orginalprice":"$20",
+        "disprice":"$10",
+
+        "order":"Oreder"
+    },
+    {
+        "id":"https://images.unsplash.com/photo-1542744173-05336fcc7ad4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c29jaWFsJTIwbWVkaWElMjBtYW5hZ2VtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "title":"Social media management",
+        "desc":"Social media can be a powerful tool for driving your business, Overall, social media management is an important part of any business's marketing strategy. It allows businesses to connect with their customers, build brand awareness, drive sales, and measure results.",
+        "Orginalprice":"$300/m",
+        "disprice":"$150/m",
+
+        "order":"Oreder"
+    },
    
     {
         "id":"https://i.ibb.co/GsdWvGG/images.jpg",
@@ -11,32 +38,28 @@
         "order":"Oreder"
     },
     {
-        "id":"https://i.ibb.co/FYCWPdz/download-1.jpg",
-        "title":"Writer of a thesis book",
-        "desc":"I will help you to improve your grade and overall project by assisting you with your thesis. In addition to meeting the university guidelines,  I will provide a high-quality thesis. I'll put together a high-quality thesis for you.",
-        "Orginalprice":"$22",
-        "disprice":"$11",
+        "id":"https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "title":"Learn how to write coding",
+        "desc":"Coding is the process of using programming languages to give instructions to a computer. These instructions power the websites, software, and applications people use every day, To learn coding, you can start by learning the basics of a programming language,  As you become more comfortable with coding, you can start working on more complex projects. Coding is a valuable skill that can open up many opportunities. If you are interested in learning to code, there are many resources available to help you get started. Here is one of to get helping",
+        "Orginalprice":"$30/m",
+        "disprice":"Free",
 
         "order":"Oreder"
     },
+    
     {
-        "id":"https://i.ibb.co/L1KPx14/download-2.jpg",
-        "title":"Web creator",
-        "desc":"In today's digital age, having a website is critical for any business looking to establish a strong online presence and attract customers. A website provides a platform for businesses to showcase their products or services.  Overall, creating a website is an essential step in building a successful business in today's digital landscape.",
+        "id":"https://i.ibb.co/FYCWPdz/download-1.jpg",
+        "title":"Writer of a thesis book",
+        "desc":"I will help you to improve your grade and overall project by assisting you with your thesis. In addition to meeting the university guidelines,  I will provide a high-quality thesis. I'll put together a high-quality thesis for you.",
         "Orginalprice":"$200",
         "disprice":"$100",
 
         "order":"Oreder"
-    },
-    {
-        "id":"https://i.ibb.co/TtQyq93/emily-bernal-v9v-II5g-V8-Lw-unsplash.jpg",
-        "title":"",
-        "desc":"You need to have a creative flair and the ability to transform ideas into designs that satisfy company and client requirements. Soft skills such as creativity, the ability to meet deadlines, superior client communication and collaboration are required, along with technical skills such as familiarity with Adobe Photoshop and coding.",
-        "Orginalprice":"$10",
-        "disprice":"$5",
-
-        "order":"Oreder"
     }
+    
+    
+    
+    
     
     
 ]

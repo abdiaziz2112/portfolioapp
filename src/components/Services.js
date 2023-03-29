@@ -40,7 +40,7 @@ function Services() {
                      <a href='#'>  {service.disprice}</a>
                     </button>
                     <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2 mt-2">
-                    <a href='https://abdiaziz.netlify.app/'>{service.order}</a>
+                    <a href='https://forms.gle/Hu2EBSdqbwQkoMxA7'>{service.order}</a>
                     </button>
                   </div>
                 </div> {/* services end here */}
