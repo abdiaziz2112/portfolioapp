@@ -46,6 +46,16 @@
 
         "order":"Oreder"
     },
+    {
+        "id":"https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8YnVzaW5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "title":"Proposal Writer",
+        "desc":"I am a proposal writer for business development. I help businesses win new clients and grow their revenue by writing compelling and persuasive proposals. I have a strong understanding of the business development process and I am skilled at writing proposals that are tailored to the specific needs of each client. I am also an excellent communicator and I am able to build rapport with clients and stakeholders. I am confident that I can help you win new clients and grow your revenue.",
+        "Orginalprice":"$300",
+        "disprice":"$150",
+
+        "order":"Oreder"
+    },
+
     
     {
         "id":"https://i.ibb.co/FYCWPdz/download-1.jpg",
