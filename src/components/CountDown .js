@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const CountDown = () => {
-  const countDownDate = new Date('4 30, 2023 23:00:00').getTime();
+  const countDownDate = new Date('10 01, 2023 23:00:00').getTime();
   const [days, setDays] = useState('');
   const [hours, setHours] = useState('');
   const [minutes, setMinutes] = useState('');
@@ -37,7 +37,7 @@ const CountDown = () => {
 
   return (
     <div id="demo" className='bg-green-200'>
-      <span className='text-gray-800'>Hello Dear, I have make big discount for all my servises 50% <span className='font-bold'>BEFORE </span></span>
+      <span className='text-gray-800'>Hello Dear, We have make big discount for all our servises 50% <span className='font-bold'>BEFORE </span></span>
       {countdownFinished ? (
         <span> Sorry Time Over!</span>
       ) : (

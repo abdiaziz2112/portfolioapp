@@ -10,7 +10,7 @@ function Services() {
     
     <div className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-12">My Services</h2>
+        <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-12">My part time jobs as freelacer </h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {
             services.map(service =>(
@@ -40,7 +40,7 @@ function Services() {
                      <a href='#'>  {service.disprice}</a>
                     </button>
                     <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2 mt-2">
-                    <a href='https://forms.gle/Hu2EBSdqbwQkoMxA7'>{service.order}</a>
+                    <a href='https://wa.me/+252684595195'>{service.order}</a>
                     </button>
                   </div>
                 </div> {/* services end here */}

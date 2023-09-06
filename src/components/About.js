@@ -21,10 +21,7 @@ const About = () => {
           <div className='flex-1'>
             <h1 className='font-bold'></h1>
             <p className='text-lg mb-6'>
-              Hello there! My name is Abdiaziz Ahmed and I'm a web developer based in Somalia country specially Mogadishu City. I have experience working with a variety of programming
-              languages and frameworks, including Javascript, ReactJs, Node.js, and Express.
-              My goal is to build responsive, user-friendly web applications that
-              provide value to users.
+              Hello there! My name is Abdiaziz Ahmed and I'm CEO of MarketMind Technolgy Solutions based in Somalia country specially Mogadishu City. We are highly experienced virtual assistants who can help you with a wide range of tasks, from administrative to creative. We are reliable and efficient, and we will help you regain control of your life and career
             </p>
             <div className='flex justify-evenly bg-slate-100 shadow-md p-3'>
                 <h1><GiSkills className='text-blue-600'/> Skills</h1>
@@ -45,7 +42,7 @@ const About = () => {
             <br/>
             <p className='text-lg mb-6'>
               In my free time, I enjoy hiking, playing guitar, and reading about
-              the latest web development trends. You can connect with me on one of the  social media platforms 
+              the latest technolgy trends. You can connect with me on one of the  social media platforms 
               using the icons below.
             </p>
             <div className='flex '>
